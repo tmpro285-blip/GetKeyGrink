@@ -804,7 +804,7 @@ local function CreateGUI()
 
         if savedKey ~= "" then
 
-            Status.Text = "Found saved key, verifying..."
+            Status.Text = "Đã tìm thấy key được lưu, đang xac thực..."
 
             task.spawn(function()
 
@@ -812,7 +812,7 @@ local function CreateGUI()
 
                 if success then
 
-                    Status.Text = "Auto-login success!"
+                    Status.Text = "Tự động đăng nhập...!"
 
                     Status.TextColor3 = Color3.fromRGB(0, 255, 100)
 
@@ -861,3 +861,4 @@ end
 -- Initialize Key System GUI
 
 CreateGUI()
+
