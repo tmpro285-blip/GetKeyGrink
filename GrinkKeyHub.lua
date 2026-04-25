@@ -30,7 +30,7 @@ local Config = {
 
     -- [3] Scripts & Links
 
-    MainScriptURL   = "Link", -- The raw URL of your main script
+    MainScriptURL   = "https://raw.githubusercontent.com/tmpro285-blip/GetKeyGrink/refs/heads/main/GrinkHub.lua", -- The raw URL of your main script
 
     
 
